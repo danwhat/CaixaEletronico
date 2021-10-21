@@ -1,0 +1,16 @@
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\bin\Debug\net5.0\CaixaEletronico.exe
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\bin\Debug\net5.0\CaixaEletronico.deps.json
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\bin\Debug\net5.0\CaixaEletronico.runtimeconfig.json
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\bin\Debug\net5.0\CaixaEletronico.runtimeconfig.dev.json
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\bin\Debug\net5.0\CaixaEletronico.dll
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\bin\Debug\net5.0\ref\CaixaEletronico.dll
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\bin\Debug\net5.0\CaixaEletronico.pdb
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\obj\Debug\net5.0\CaixaEletronico.csproj.AssemblyReference.cache
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\obj\Debug\net5.0\CaixaEletronico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\obj\Debug\net5.0\CaixaEletronico.AssemblyInfoInputs.cache
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\obj\Debug\net5.0\CaixaEletronico.AssemblyInfo.cs
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\obj\Debug\net5.0\CaixaEletronico.csproj.CoreCompileInputs.cache
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\obj\Debug\net5.0\CaixaEletronico.dll
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\obj\Debug\net5.0\ref\CaixaEletronico.dll
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\obj\Debug\net5.0\CaixaEletronico.pdb
+C:\Users\Dan\source\repos\CaixaEletronico\CaixaEletronico\CaixaEletronico\obj\Debug\net5.0\CaixaEletronico.genruntimeconfig.cache
