@@ -4,8 +4,8 @@
     {
         public Banco Banco { get; }
 
-        public Saque Sacar(Cliente cliente, int valor);
+        public Saque Sacar(ICliente cliente, int valor);
 
-        public bool ValidarSaque(Cliente cliente, int valor);
+        public bool ValidarSaque(ICliente cliente, int valor);
     }
 }

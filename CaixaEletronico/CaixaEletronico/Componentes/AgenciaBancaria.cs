@@ -15,7 +15,7 @@ namespace CaixaEletronico.Componentes
 
         public Banco Banco { get; }
 
-        public Saque Sacar(Cliente cliente, int valor)
+        public Saque Sacar(ICliente cliente, int valor)
         {
             if (ValidarSaque(cliente, valor))
             {
@@ -27,7 +27,7 @@ namespace CaixaEletronico.Componentes
             return new Saque(0);
         }
 
-        public bool ValidarSaque(Cliente cliente, int valor)
+        public bool ValidarSaque(ICliente cliente, int valor)
         {
             if (cliente.Saldo >= valor)
             {
@@ -36,7 +36,7 @@ namespace CaixaEletronico.Componentes
             return false;
         }
 
-        public void MostrarSaldo(Cliente cliente)
+        public void MostrarSaldo(ICliente cliente)
         {
             Console.WriteLine(cliente.Saldo);
         }

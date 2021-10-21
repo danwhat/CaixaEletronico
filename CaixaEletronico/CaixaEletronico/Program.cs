@@ -10,7 +10,7 @@ namespace CaixaEletronico
             Banco banco = new Banco("BancoBacana");
 
             // Testar Cliente
-            if (false)
+            if (true)
             {
                 Cliente cliente = banco.AdicionarCliente(0001, 1000, "João", "12345678901");
                 Console.WriteLine(cliente.Nome);
@@ -18,21 +18,23 @@ namespace CaixaEletronico
                 Console.WriteLine(cliente.Conta);
                 Console.WriteLine(cliente.Saldo);
             }
+            Console.WriteLine("---//---");
 
             // Testar Saque 
-            if (false)
-            { 
-                CaixaEletronico caixa = new CaixaEletronico(banco);
+            if (true)
+            {
+                ISacavel caixa = new CaixaEletronico(banco);
 
-                Cliente cliente = banco.AdicionarCliente(0001, 1000, "João", "12345678901");
+                ICliente cliente = banco.AdicionarCliente(0001, 1000, "João", "12345678901");
                 Console.WriteLine("Saldo: " + cliente.Saldo);
                 Saque saque = caixa.Sacar(cliente, 175);
                 Console.WriteLine("Sucesso: " + saque.Sucesso);
                 Console.WriteLine("Hora do Saque: " + saque.HoraDoSaque);
                 Console.WriteLine("Saldo: " + cliente.Saldo);
                 saque.MostrarNotas();
+                Console.WriteLine();
 
-                Cliente cliente2 = banco.AdicionarCliente(0002, 1000, "João", "12345678902");
+                ICliente cliente2 = banco.AdicionarCliente(0002, 1000, "João", "12345678902");
                 Console.WriteLine("Saldo: " + cliente2.Saldo);
                 Saque saque2 = caixa.Sacar(cliente2, 1500);
                 Console.WriteLine("Sucesso: " + saque2.Sucesso);
@@ -40,6 +42,7 @@ namespace CaixaEletronico
                 Console.WriteLine("Saldo: " + cliente2.Saldo);
                 saque2.MostrarNotas();
             }
+            Console.WriteLine("---//---");
 
             // Sacar de qualquer Caixa Eletronico
             if (true)
@@ -48,7 +51,7 @@ namespace CaixaEletronico
                 ISacavel caixa2 = new AgenciaBancaria(banco);
                 ISacavel caixa3 = new AgenciaBancaria(banco);
 
-                Cliente cliente = banco.AdicionarCliente(0001, 1000, "João", "12345678901");
+                ICliente cliente = banco.AdicionarCliente(0001, 1000, "João", "12345678901");
 
                 Console.WriteLine("Primeiro Saque");
                 Console.WriteLine("Saldo: " + cliente.Saldo);
@@ -71,6 +74,7 @@ namespace CaixaEletronico
                 Console.WriteLine("Saldo Final: " + cliente.Saldo);
                 Console.WriteLine();
             }
+            Console.WriteLine("---//---");
 
         }
     }
